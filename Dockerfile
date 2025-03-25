@@ -1,5 +1,5 @@
                 # Use the OpenJDK 11 image as the base image
-                FROM openjdk:latest
+                FROM openjdk:23
 
                 # Create a new app directory for my application files
                 RUN mkdir /app
